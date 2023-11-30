@@ -6,6 +6,11 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
+  extend: {
+    backgroundImage: {
+      'hero': "url('https://tailwindcss.com/_next/static/media/docs-dark@30.1a9f8cbf.avif')",
+    },
+},
   theme: {
     extend: {
       backgroundImage: {
